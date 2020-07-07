@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey Form</title>
+  <!-- css -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/form.css">
+</head>
+<body>
+  <main id="main">
+    <header>
+      <h1 id="title">Responsive Web Design Projects - Build a Survey Form</h1>
+      <p id="description">Objective: Build a CodePen.io app that is functionally similar to this: <a href="https://codepen.io/freeCodeCamp/full/VPaoNP">https://codepen.io/freeCodeCamp/full/VPaoNP</a>.</p>
+    </header>
+    <form id="survey-form" action="" method="POST">
+      <fieldset>
+        <legend>Contact Info</legend>
+        <label for="name" id="name-label">Name:</label>
+        <input type="text" id="name" class="contactInput" name="name" placeholder="Jane Doe" required>
+        <br>
+        <label for="email" id="email-label">Email:</label>
+        <input type="email" id="email" class="contactInput" placeholder="something@example.com" required>
+        <br>
+      </fieldset>
+      <fieldset>
+        <legend>Additional Info</legend>
+        <label for="number" id="number-label">Age:</label>
+        <input type="number" id="number" class="contactInput" name="age" min="0" max="1000" placeholder="19" required>
+        <div>
+          <p>Gender:</p>
+          <input type="radio" id="male" name="gender" value="male">
+          <label for="male">Male:</label>
+          <input type="radio" id="female" name="gender" value="female">
+          <label for="male">Female:</label>
+          <input type="radio" id="other" name="gender" value="other" checked>
+          <label for="male">Other</label>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Wellbeing</legend>
+        <div>
+          <label for="mood">Mood:</label>
+          <select id="dropdown">
+            <option value="sad">sad</option>
+            <option value="happy">happy</option>
+            <option value="other">other</option>
+          </select>
+        </div>
+        <div>
+          <p>Choose areas you would like to improve on:</p>
+          <input type="checkbox" id="emotional" name="emotional" value="emotional">
+          <label for="emotional">Emotional</label>
+          <input type="checkbox" id="physical" name="physical" value="physical">
+          <label for="physical">Physical</label>
+          <input type="checkbox" id="educational" name="educational" value="educational">
+          <label for="educational">Educational</label>
+          <input type="checkbox" id="social" name="social" value="social">
+          <label for="social">Social</label>
+          <br>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Final Comments</legend>
+        <div>
+          <label for="anythingElse">Is there anythng else you would like us to know before we start?</label>
+          <br>
+          <textarea name="additional-info" id="anythingElse" cols="30" rows="10"></textarea>
+        </div>
+      </fieldset>
+      <br>
+      <button type="submit" id="submit">Submit</button>
+    </form>
+  </main>
+
+  <!-- javascript test checker -->
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <!-- custom js -->
+  <script type="text/javascript" src="assets/js/form.js"></script>
+</body>
+</html>

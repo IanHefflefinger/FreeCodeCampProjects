@@ -1,0 +1,1 @@
+projects need to be on codepen, as free code camp needs an active internet link to check for and apply the completed state

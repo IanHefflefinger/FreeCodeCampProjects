@@ -1,0 +1,72 @@
+/* connected */
+
+/* navbar */
+.navbar-brand {
+  font-family: 'Great Vibes', cursive;
+  font-size: 35px;
+}
+
+.nav-link {
+  font-size: 20px;
+}
+
+/* welcome section */
+.jumbotron {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#jumboItems {
+  color: white;
+  text-shadow: 2px 2px 8px black;
+  margin-bottom: 80px;
+}
+
+/* projects */
+#projects > h2{
+  text-align: center;
+  margin: 40px
+}
+
+#card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  margin: 20px;
+}
+
+.card-body {
+  padding: 0;
+  background-color: black;
+}
+
+.card-body > p {
+  text-align: center;
+}
+
+.card-text {
+  color: white;
+  background-color: black;
+}
+
+#profile-link {
+  width: auto;
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+/* little screen */
+@media (max-width: 1000px) {
+  .card {
+    width: 100% !important;
+  }
+}

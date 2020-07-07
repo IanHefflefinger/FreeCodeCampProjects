@@ -1,0 +1,77 @@
+/* CONNECTED */
+
+/* navigation - header */
+#header-img {
+  height: 30px;
+  width: auto;
+}
+
+/* what is organic? section */
+h1 {
+  text-align: center;
+  margin: 30px auto;
+  margin-top: 90px;
+}
+
+#topOut {
+  display: flex;
+  justify-content: center;
+}
+
+iframe {
+  width: 50%;
+  height: 300px;
+}
+
+/* our organics */
+h2 {
+  text-align: center;
+  margin: 30px auto;
+  margin-top: 50px;
+}
+
+#cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  margin: 30px;
+}
+
+/* testimonials */
+#testimonials {
+  width: 50%;
+  margin: 0 auto;
+}
+/* contact form */
+.container {
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.contact {
+  padding: 25px;
+  margin: 100px 0;
+}
+
+fieldset {
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+.contact input[type="email"] {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+
+

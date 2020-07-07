@@ -1,0 +1,54 @@
+/* CONNECTED */
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-image: url("https://images.unsplash.com/photo-1579126038374-6064e9370f0f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1917&q=80");
+}
+
+main {
+  width: 40%;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+  color: white;
+}
+
+form {
+  background-color: rgba(128, 0, 128, 0.6);
+  color: #e9fade;
+  border-radius: 5px;
+  padding-bottom: 25px;
+  margin-bottom: 50px;
+}
+
+.contactInput {
+  height: 20px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+}
+
+#number {
+  width: 30px;
+}
+
+textarea {
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+}
+
+fieldset {
+  padding: 10px;
+  margin: 10px;
+}
+
+#submit {
+  display: block;
+  margin: auto;
+  width: 50%;
+  height: 35px;
+  border-radius: 5px;
+  font-size: 19px;;
+}

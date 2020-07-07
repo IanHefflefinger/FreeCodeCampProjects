@@ -1,0 +1,75 @@
+/* connected - verified */
+
+body {
+  font-size: 17px;
+  text-align: center;
+  font-family: 'Federo', sans-serif;
+}
+
+main {
+  padding-bottom: 20px;
+  margin-bottom: 18px;
+  border-radius: 10px;
+  padding-top: 10px;
+  background-color: #EEEEEE;
+  margin: 20px 10%;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+figure {
+  margin-bottom: 40px;
+  padding-top: 10px;
+  margin-top: 30px;
+}
+
+figcaption {
+  padding: 20px 0;
+}
+
+#img-div {
+  background-color: white;
+}
+
+ul {
+  text-align: justify;
+  margin: 0 auto;
+  width: 40%;
+  display: inline-block;
+  margin: 20px;
+}
+
+ul li {
+  margin: 5px;
+}
+
+#tribute-info {
+  text-align: center;
+  margin: 20px 5%;
+}
+
+blockquote {
+  margin: 35px 0;
+}
+
+@media (max-width: 1300px) {
+  ul {
+    width: 80%;
+  }
+}
+
+@media (max-width: 750px) {
+  figure {
+    padding: 20px;
+  }
+
+  main {
+    margin: 10px;
+  }
+}
+
